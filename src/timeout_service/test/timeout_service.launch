@@ -1,0 +1,4 @@
+<launch>
+    <node name="test_node" pkg="timeout_service" type="timeout_service_test_node" />
+    <test test-name="timeout_service_test" pkg="timeout_service"  type="timeout_service_test" time-limit="30.0" />
+</launch>
